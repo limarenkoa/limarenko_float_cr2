@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 0;
+}
+
+.first {
+	display: inline-block;
+	width: 100%;
+	background-color: black;
+}
+
+.left {
+	float: left;
+	background-color: grey;
+	width: 25%;
+	height: 100px;
+}
+
+.right {
+	float: right;
+	background-color: grey;
+	width: 25%;
+	height: 100px;
+}
+
+.second {
+	display: inline-block;
+	width: 100%;
+	background-color: red;
+}
+
+.second_left {
+	float: left;
+	background-color: blue;
+	width: 25%;
+	height: 100px;
+}
+
+p {
+	margin: 0;
+	font-size: 40px;
+}
